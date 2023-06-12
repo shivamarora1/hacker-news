@@ -1,15 +1,16 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
 import NewsItem from "./news-item";
 import { Item } from "@/types/interface";
-import { PageSize } from "@/pages";
+import { PageSize } from "@/pages/[[...type]]";
 import Link from "next/link";
-
+import { useRouter } from "next/router";
 interface Props {
   items: Item[];
   page: number;
 }
 
 export default function NewsContainer({ items, page }: Props) {
+  const router = useRouter();
   return (
     <>
       <ul>
@@ -18,7 +19,9 @@ export default function NewsContainer({ items, page }: Props) {
         ))}
       </ul>
       <div>
-        <Link href={{ query: { p: page+1 } }}>More...</Link>
+        <Link href={{ pathname: router.asPath, query: { p: page + 1 } }}>
+          More...
+        </Link>
       </div>
       <style jsx>
         {`

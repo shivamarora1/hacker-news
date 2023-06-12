@@ -1,6 +1,7 @@
 import type { InferGetServerSidePropsType, GetServerSideProps } from "next";
 import { Item } from "../types/interface";
 import { getList, getItem } from "../helpers/fetch";
+import { useRouter } from "next/router";
 import NewsContainer from "@/components/news-container";
 
 export const PageSize: number = 30;
@@ -13,8 +14,12 @@ export const getServerSideProps: GetServerSideProps<{
   var page = parseInt(query.p as string, 10);
   const itemsPerPage = PageSize;
 
+  var pageType = "topstories";
+  if (query.type && Array.isArray(query.type) && query.type.length > 0) {
+    pageType = query.type[0];
+  }
   page = page ? page : 0;
-  const itemsArr: number[] = await getList("topstories");
+  const itemsArr: number[] = await getList(pageType);
   const itemsToProcess: number[] = itemsArr.slice(
     page * itemsPerPage,
     page * itemsPerPage + itemsPerPage

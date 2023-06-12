@@ -5,11 +5,11 @@ export default function Nav() {
   const router = useRouter();
   const tabs = [
     { label: "Top", href: "/" },
-    { label: "Best", href: "/best" },
-    { label: "Newest", href: "/newest" },
-    { label: "Show", href: "/show" },
-    { label: "Ask", href: "/ask" },
-    { label: "Jobs", href: "/jobs" },
+    { label: "Best", href: "/beststories" },
+    { label: "Newest", href: "/newstories" },
+    { label: "Show", href: "/showstories" },
+    { label: "Ask", href: "/askstories" },
+    { label: "Jobs", href: "/jobstories" },
   ];
 
   return (
