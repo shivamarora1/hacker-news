@@ -1,58 +1,32 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Tab } from "../types/interface";
 
 export default function Nav() {
   const router = useRouter();
+  const tabs = [
+    { label: "Top", href: "/" },
+    { label: "Best", href: "/best" },
+    { label: "Newest", href: "/newest" },
+    { label: "Show", href: "/show" },
+    { label: "Ask", href: "/ask" },
+    { label: "Jobs", href: "/jobs" },
+  ];
 
   return (
     <>
       <nav>
         <ul>
-          <li>
-            <Link href="/" className={router.pathname === "/" ? "active" : ""}>
-              Top
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/best"
-              className={router.pathname === "/best" ? "active" : ""}
-            >
-              Best
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/newest"
-              className={router.pathname === "/newest" ? "active" : ""}
-            >
-              New
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/show"
-              className={router.pathname === "/show" ? "active" : ""}
-            >
-              ShowHN
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/ask"
-              className={router.pathname === "/ask" ? "active" : ""}
-            >
-              AskHN
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/jobs"
-              className={router.pathname === "/jobs" ? "active" : ""}
-            >
-              Jobs
-            </Link>
-          </li>
+          {tabs.map((link, index) => (
+            <li key={index}>
+              <Link
+                href={link.href}
+                className={router.pathname === link.href ? "active" : ""}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
       <style jsx>

@@ -42,13 +42,11 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
             overflow: hidden;
           }
           header {
-            background-color: #fc6621;
-            padding: 12px 20px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
+            background-color: #000;
+            padding: 10px 20px;
           }
           h1 {
-            font-size: 50px;
+            font-size: 30px;
             font-weight: bold;
             margin: 0;
             position: relative;
@@ -59,10 +57,6 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
       <style jsx global>
         {`
           h1 a {
-            color: #fff;
-            text-decoration: none;
-          }
-          h1 a:hover {
             color: #fff;
             text-decoration: none;
           }
