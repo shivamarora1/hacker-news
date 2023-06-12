@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Tab } from "../types/interface";
 
 export default function Nav() {
   const router = useRouter();
