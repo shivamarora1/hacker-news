@@ -2,125 +2,1192 @@
 
 exports[`renders homepage unchanged 1`] = `
 <div>
-  <main
-    class="main className"
+  <ul
+    class="jsx-cff035a24d7d8910"
   >
-    <div
-      class="description"
+    <li
+      class="jsx-297c80574207f84e"
     >
-      <p>
-        Get started by editing 
-        <code
-          class="code"
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
         >
-          src/pages/index.tsx
-        </code>
-      </p>
-      <div>
+          1
+          .
+        </span>
+         
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
+          class="jsx-297c80574207f84e"
+          href="https://github.com/ggerganov/llama.cpp/pull/1827"
         >
-          By
-           
-          <img
-            alt="Vercel Logo"
-            class="vercelLogo"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="24"
-            src="/vercel.svg"
-            style="color: transparent;"
-            width="100"
-          />
+          Llama.cpp: Full CUDA GPU Acceleration
         </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          github.com
+          )
+        </span>
       </div>
-    </div>
-    <div
-      class="center"
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          124
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          gzer0
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          2 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          8
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
     >
-      <img
-        alt="Next.js Logo"
-        class="logo"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="37"
-        src="/next.svg"
-        style="color: transparent;"
-        width="180"
-      />
-    </div>
-    <div
-      class="grid"
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          2
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://apps.apple.com/us/story/id1435835881"
+        >
+          BBEdit: Where Respect Is Due
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          apps.apple.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          205
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          tambourine_man
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          4 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          30
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
     >
-      <a
-        class="card"
-        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+      <div
+        class="jsx-297c80574207f84e topHeading"
       >
-        <h2>
-          Docs 
-          <span>
-            -&gt;
-          </span>
-        </h2>
-        <p>
-          Find in-depth information about Next.js features and API.
-        </p>
-      </a>
-      <a
-        class="card"
-        href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          3
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://non.io"
+        >
+          Show HN: Non.io, a Reddit-like platform Ive been working on for the last 4 years
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          non.io
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
       >
-        <h2>
-          Learn 
-          <span>
-            -&gt;
-          </span>
-        </h2>
-        <p>
-          Learn about Next.js in an interactive course with quizzes!
-        </p>
-      </a>
-      <a
-        class="card"
-        href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          1488
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          jjcm
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          11 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          190
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
       >
-        <h2>
-          Templates 
-          <span>
-            -&gt;
-          </span>
-        </h2>
-        <p>
-          Discover and deploy boilerplate example Next.js projects.
-        </p>
-      </a>
-      <a
-        class="card"
-        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          4
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://github.com/mackyle/sqlite/blob/18cf47156abe94255ae1495ba2da84517dce6081/src/os.h"
+        >
+          Why sqlite3 temp files were renamed 'etilqs_*' (2006)
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          github.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
       >
-        <h2>
-          Deploy 
-          <span>
-            -&gt;
-          </span>
-        </h2>
-        <p>
-          Instantly deploy your Next.js site to a shareable URL with Vercel.
-        </p>
-      </a>
-    </div>
-  </main>
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          153
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          bsmith89
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          5 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          11
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          5
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.quantamagazine.org/a-new-experiment-casts-doubt-on-the-leading-theory-of-the-nucleus-20230612/"
+        >
+          A new experiment casts doubt on the leading theory of the nucleus
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          quantamagazine.org
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          100
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          jnord
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          6 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          7
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          6
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://ericwbailey.website/published/dont-use-custom-css-scrollbars/"
+        >
+          Don't use custom CSS scrollbars
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          ericwbailey.website
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          125
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          Twixes
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          6 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          33
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          7
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://spritely.institute/news/hoot-wireworld-live-in-browser.html"
+        >
+          Lisp Game Jam – “Wireworld” in WebAssembly Using Spritely's Hoot Project
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          spritely.institute
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          17
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          paroneayea
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          9 hours ago
+           |
+           
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          8
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.sfgate.com/food/article/anchor-brewing-co-ends-national-distribution-18148141.php"
+        >
+          Anchor Brewing Company ends national distribution, kills Christmas Ale
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          sfgate.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          96
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          kaycebasques
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          6 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          21
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          9
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.marginalia.nu/log/82_killing_community"
+        >
+          Killing Community
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          marginalia.nu
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          345
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          dasil003
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          11 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          43
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          10
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.nytimes.com/2023/06/12/magazine/mrbeast-youtube.html"
+        >
+          MrBeast has become a viral sensation for his acts of altruism
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          nytimes.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          61
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          gaws
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          4 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          30
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          11
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://justine.lol/sorting/"
+        >
+          Understanding DeepMind's sorting algorithm
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          justine.lol
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          282
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          jart
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          11 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          11
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          12
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.pulumi.com/blog/converting-full-terraform-programs-to-pulumi/"
+        >
+          Converting Full Terraform Programs to Pulumi
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          pulumi.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          34
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          hekul
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          5 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          9
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          13
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.hackster.io/news/miniature-macintosh-with-raspberry-pi-cbff147ed047"
+        >
+          Miniature Macintosh with Raspberry Pi
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          hackster.io
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          74
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          rcarmo
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          21 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          8
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          14
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://www.techdirt.com/2023/06/08/us-patent-office-proposes-rule-to-make-it-much-harder-to-kill-bad-patents/"
+        >
+          US Patent Office proposes rule to make it much harder to kill bad patents
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          techdirt.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          369
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          berkeleyjunk
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          7 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          9
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          15
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://pixelfed.blog/p/2023/feature/introducing-import-from-instagram"
+        >
+          Pixelfed Introduces Import from Instagram
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          pixelfed.blog
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          190
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          rapnie
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          12 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          15
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          16
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://sashachapin.substack.com/p/in-praise-of-blowing-up-your-life"
+        >
+          In praise of blowing up your life
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          sashachapin.substack.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          73
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          jger15
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          6 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          25
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          17
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://blog.mobian.org/posts/2023/06/10/bookworm/"
+        >
+          The Mobian Bookworm has landed
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          blog.mobian.org
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          36
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          pabs3
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          21 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          1
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          18
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://vintagenatgeographic.tumblr.com/"
+        >
+          Vintage National Geographic Photos
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          vintagenatgeographic.tumblr.com
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          17
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          ZunarJ5
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          3 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          2
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          19
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://benjcal.space/posts/the-adventures-of-writing-a-chip8-emulator-part-1/"
+        >
+          The Adventures of Writing a CHIP8 Emulator
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          benjcal.space
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          12
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          lrsjng
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          8 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          1
+           comments
+        </span>
+      </div>
+    </li>
+    <li
+      class="jsx-297c80574207f84e"
+    >
+      <div
+        class="jsx-297c80574207f84e topHeading"
+      >
+        <span
+          class="jsx-297c80574207f84e index"
+        >
+          20
+          .
+        </span>
+         
+        <a
+          class="jsx-297c80574207f84e"
+          href="https://newsletter.mollywhite.net/p/but-the-sec-let-us-go-public-and"
+        >
+          “But the SEC let us go public” and other flawed arguments in Coinbase's defense
+        </a>
+         
+        <span
+          class="jsx-1e9b18d4c488638f"
+        >
+          (
+          newsletter.mollywhite.net
+          )
+        </span>
+      </div>
+      <div
+        class="jsx-cdbc45562f9ae3f3 subText"
+      >
+        <span
+          class="jsx-cdbc45562f9ae3f3 points"
+        >
+          72
+           points | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 by"
+        >
+          by 
+          0xedb
+           | 
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 time"
+        >
+          6 hours ago
+           |
+           
+        </span>
+        <span
+          class="jsx-cdbc45562f9ae3f3 comments"
+        >
+          11
+           comments
+        </span>
+      </div>
+    </li>
+  </ul>
+  <div
+    class="jsx-cff035a24d7d8910"
+  >
+    <a
+      href="?p=1"
+    >
+      More...
+    </a>
+  </div>
 </div>
 `;

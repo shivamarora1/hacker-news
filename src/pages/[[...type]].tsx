@@ -1,6 +1,6 @@
 import type { InferGetServerSidePropsType, GetServerSideProps } from "next";
 import { Item } from "../types/interface";
-import { getList, getItem } from "../helpers/fetch";
+import { fetchItems } from "../helpers/fetch";
 import { useRouter } from "next/router";
 import NewsContainer from "@/components/news-container";
 
@@ -19,17 +19,7 @@ export const getServerSideProps: GetServerSideProps<{
     pageType = query.type[0];
   }
   page = page ? page : 0;
-  const itemsArr: number[] = await getList(pageType);
-  const itemsToProcess: number[] = itemsArr.slice(
-    page * itemsPerPage,
-    page * itemsPerPage + itemsPerPage
-  );
-  const processArrayAsync = async () => {
-    const promises = itemsToProcess.map((id) => getItem(id));
-    const results = await Promise.all(promises);
-    return results;
-  };
-  const items: Item[] = await processArrayAsync();
+  const items: Item[] = await fetchItems(page, PageSize, pageType);
   return { props: { items, page } };
 };
 

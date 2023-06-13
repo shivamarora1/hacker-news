@@ -1,4 +1,3 @@
-import { GetServerSideProps, InferGetServerSidePropsType } from "next";
 import NewsItem from "./news-item";
 import { Item } from "@/types/interface";
 import { PageSize } from "@/pages/[[...type]]";
