@@ -13,12 +13,19 @@ export default function NewsContainer({ items, page }: Props) {
   return (
     <>
       <ul>
-        {items.map((item: Item, i: number) => (
-          <NewsItem item={item} itemIdx={getItemIdx(page, i)} key={item.id} />
-        ))}
+        {items.map((item: Item, i: number) =>
+          item ? (
+            <NewsItem item={item} itemIdx={getItemIdx(page, i)} key={item.id} />
+          ) : null
+        )}
       </ul>
       <div>
-        <Link href={{ pathname: router.pathname, query: { p: page + 1 } }}>
+        <Link
+          href={{
+            pathname: router.asPath.split("?")[0],
+            query: { p: page + 1 },
+          }}
+        >
           More...
         </Link>
       </div>

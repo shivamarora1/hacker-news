@@ -10,7 +10,7 @@ jest.mock('next/router', () => ({
 }))
 
 it("renders homepage unchanged", () => {
-  useRouter.mockReturnValue({ query: {}})
+  useRouter.mockReturnValue({ query: {},asPath: ""})
   const mockFromNow = jest.spyOn(dayjs.prototype, 'fromNow').mockReturnValue('2 days ago'); 
 
   const raw = fs.readFileSync("__tests__/test.json", "utf8")
