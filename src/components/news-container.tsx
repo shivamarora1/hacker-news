@@ -18,7 +18,7 @@ export default function NewsContainer({ items, page }: Props) {
         ))}
       </ul>
       <div>
-        <Link href={{ pathname: router.asPath, query: { p: page + 1 } }}>
+        <Link href={{ pathname: router.pathname, query: { p: page + 1 } }}>
           More...
         </Link>
       </div>
