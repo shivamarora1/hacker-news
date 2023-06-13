@@ -20,7 +20,7 @@ export default function Nav() {
             <li key={index}>
               <Link
                 href={link.href}
-                className={router.pathname === link.href ? "active" : ""}
+                className={router.asPath.split("?")[0]===link.href ? "active" : ""}
               >
                 {link.label}
               </Link>
