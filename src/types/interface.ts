@@ -5,10 +5,13 @@ export interface Item {
   dead: boolean;
   id: number;
   kids?: number[] | null;
-  score: number;
   title: string;
+  score: number;
   time: number;
   type: string;
   url: string;
   text?: string;
+  Replies?: Item[] | null;
 }
+
+

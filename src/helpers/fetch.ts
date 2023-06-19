@@ -37,3 +37,11 @@ export async function fetchItems(
   };
   return processArrayAsync();
 }
+
+export async function fetchItemsWithReplies(itemId: number): Promise<Item> {
+  const item = await getItem(itemId);
+  for (let i = 0; item.kids && i < item.kids?.length; i++) {
+    item.Replies?.push(await fetchItemsWithReplies(item.kids[i]));
+  }
+  return item;
+}
