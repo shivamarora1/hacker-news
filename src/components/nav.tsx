@@ -1,7 +1,17 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 export default function Nav() {
+  const [tab, setTab] = useState("Top");
+
+  function changeTab(tabName: string) {
+    return () => {
+      setTab(tabName);
+      console.log(tab);
+    };
+  }
+
   const router = useRouter();
   const tabs = [
     { label: "Top", href: "/" },
@@ -19,8 +29,10 @@ export default function Nav() {
           {tabs.map((link, index) => (
             <li key={index}>
               <Link
+                onClick={changeTab(link.label)}
                 href={link.href}
-                className={router.asPath.split("?")[0]===link.href ? "active" : ""}
+                data-custom={tab}
+                className={tab === link.label ? "active" : ""}
               >
                 {link.label}
               </Link>

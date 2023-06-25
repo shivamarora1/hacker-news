@@ -1,4 +1,4 @@
-export default function extractDomain(url: string) {
+export default function extractDomain(url: string):string {
     let domain;
     if (url.indexOf('//') > -1) {
       domain = url.split('/')[2];
